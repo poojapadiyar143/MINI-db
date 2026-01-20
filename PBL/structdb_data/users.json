@@ -1,0 +1,20 @@
+{
+  "admin": {
+    "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+    "role": "admin",
+    "created_at": "2025-10-20T12:56:23.356113",
+    "databases": [
+      "admin_company",
+      "admin_demo"
+    ]
+  },
+  "sagar": {
+    "password": "d97c6d734882dc89d7d5350e421ae3f3944890d26a5659e2b352612fcaf65a40",
+    "role": "user",
+    "created_at": "2025-11-10T21:24:12.988704",
+    "databases": [
+      "sagar_SAGAR",
+      "sagar_testdb"
+    ]
+  }
+}

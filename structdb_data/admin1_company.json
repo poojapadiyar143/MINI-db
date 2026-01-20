@@ -1,0 +1,43 @@
+{
+  "database": {
+    "name": "company",
+    "owner": "admin1",
+    "tables": {
+      "employee": {
+        "columns": [
+          "e_name",
+          "e_id",
+          "e_job"
+        ],
+        "column_definitions": [
+          {
+            "name": "e_name",
+            "definition": "char(10)"
+          },
+          {
+            "name": "e_id",
+            "definition": "int(6)"
+          },
+          {
+            "name": "e_job",
+            "definition": "char(20)"
+          }
+        ],
+        "primary_key": "e_name",
+        "records": [
+          {
+            "e_name": "pooja",
+            "e_id": 1,
+            "e_job": "manager",
+            "_created_at": "2025-12-04T10:06:42.722711",
+            "_updated_at": "2025-12-04T10:06:42.722711"
+          }
+        ],
+        "created_at": "2025-12-04T10:05:53.574975"
+      }
+    },
+    "created_at": "2025-12-04T10:03:40.364762"
+  },
+  "password_hash": null,
+  "owner": "admin1"
+}

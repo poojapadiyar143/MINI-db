@@ -1,0 +1,170 @@
+{
+  "database": {
+    "name": "admin",
+    "owner": "admin4",
+    "tables": {
+      "department": {
+        "columns": [
+          "d_name",
+          "d_id",
+          "d_city"
+        ],
+        "column_definitions": [
+          {
+            "name": "d_name",
+            "definition": "varchar(8)"
+          },
+          {
+            "name": "d_id",
+            "definition": "int(10)"
+          },
+          {
+            "name": "d_city",
+            "definition": "char(8)"
+          }
+        ],
+        "primary_key": "d_name",
+        "records": [
+          {
+            "d_name": "manager",
+            "d_id": 1,
+            "d_city": "banglore",
+            "_created_at": "2025-12-13T13:51:54.548990",
+            "_updated_at": "2025-12-13T13:51:54.548990"
+          },
+          {
+            "d_name": "clerk",
+            "d_id": "2",
+            "d_city": "pune",
+            "_created_at": "2025-12-13T13:54:41.600075",
+            "_updated_at": "2025-12-13T14:04:27.667856"
+          },
+          {
+            "d_name": "accountand",
+            "d_id": 3,
+            "d_city": "mumbai",
+            "_created_at": "2025-12-13T13:57:47.658509",
+            "_updated_at": "2025-12-13T13:57:47.658509"
+          },
+          {
+            "d_name": "finance",
+            "d_id": 5,
+            "d_city": "bhimtal",
+            "_created_at": "2025-12-13T15:18:39.351149",
+            "_updated_at": "2025-12-13T15:18:39.351149"
+          },
+          {
+            "d_name": "ksjsh",
+            "d_id": 6,
+            "d_city": "skswoj",
+            "_created_at": "2025-12-13T15:19:20.245208",
+            "_updated_at": "2025-12-13T15:19:20.245208"
+          },
+          {
+            "d_name": "ewq",
+            "d_id": 7,
+            "d_city": "ppp",
+            "_created_at": "2025-12-13T15:20:44.631545",
+            "_updated_at": "2025-12-13T15:20:44.631545"
+          }
+        ],
+        "created_at": "2025-12-13T13:47:20.827302"
+      },
+      "student": {
+        "columns": [
+          "s_name",
+          "s_id",
+          "s_course"
+        ],
+        "column_definitions": [
+          {
+            "name": "s_name",
+            "definition": "varchar(6)"
+          },
+          {
+            "name": "s_id",
+            "definition": "int(10) primary key"
+          },
+          {
+            "name": "s_course",
+            "definition": "char(10)"
+          }
+        ],
+        "primary_key": "s_id",
+        "records": [
+          {
+            "s_name": "pooja",
+            "s_id": 1,
+            "s_course": "BCA",
+            "_created_at": "2025-12-13T15:46:07.493240",
+            "_updated_at": "2025-12-13T15:46:07.493240"
+          },
+          {
+            "s_name": "piyush",
+            "s_id": 2,
+            "s_course": "Bca",
+            "_created_at": "2025-12-13T15:46:49.119212",
+            "_updated_at": "2025-12-13T15:46:49.119212"
+          },
+          {
+            "s_name": "kavyanka",
+            "s_id": 3,
+            "s_course": "bca",
+            "_created_at": "2025-12-13T15:48:07.484469",
+            "_updated_at": "2025-12-13T15:48:07.484469"
+          }
+        ],
+        "created_at": "2025-12-13T15:45:12.586719"
+      },
+      "employee": {
+        "columns": [
+          "e_name",
+          "e_id",
+          "e_city"
+        ],
+        "column_definitions": [
+          {
+            "name": "e_name",
+            "definition": "char(5)"
+          },
+          {
+            "name": "e_id",
+            "definition": "int(10) primary key"
+          },
+          {
+            "name": "e_city",
+            "definition": "char(20)"
+          }
+        ],
+        "primary_key": "e_id",
+        "records": [
+          {
+            "e_name": "pooja",
+            "e_id": 1,
+            "e_city": "haldwani",
+            "_created_at": "2025-12-13T16:21:30.614765",
+            "_updated_at": "2025-12-13T16:21:30.614765"
+          },
+          {
+            "e_name": "pooja",
+            "e_id": 2,
+            "e_city": "haldwani",
+            "_created_at": "2025-12-13T16:22:42.165310",
+            "_updated_at": "2025-12-13T16:22:42.165310"
+          },
+          {
+            "e_name": "pitush",
+            "e_id": 3,
+            "e_city": "bhimtal",
+            "_created_at": "2025-12-13T16:26:09.217792",
+            "_updated_at": "2025-12-13T16:26:09.217792"
+          }
+        ],
+        "created_at": "2025-12-13T16:20:33.941370"
+      }
+    },
+    "created_at": "2025-12-13T13:23:30.464412"
+  },
+  "password_hash": null,
+  "owner": "admin4"
+}

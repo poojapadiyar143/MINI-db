@@ -1,0 +1,43 @@
+{
+  "database": {
+    "name": "testdb",
+    "owner": "sagar",
+    "tables": {
+      "users": {
+        "columns": [
+          "id",
+          "name"
+        ],
+        "column_definitions": [
+          {
+            "name": "id",
+            "definition": "INT"
+          },
+          {
+            "name": "name",
+            "definition": "TEXT"
+          }
+        ],
+        "primary_key": "id",
+        "records": [
+          {
+            "id": 1,
+            "name": "John",
+            "_created_at": "2025-11-10T21:30:06.921607",
+            "_updated_at": "2025-11-10T21:30:06.921607"
+          },
+          {
+            "id": "2",
+            "name": "SAGAR",
+            "_created_at": "2025-11-10T21:30:30.219669",
+            "_updated_at": "2025-11-10T21:30:30.219669"
+          }
+        ],
+        "created_at": "2025-11-10T21:29:50.893008"
+      }
+    },
+    "created_at": "2025-11-10T21:29:04.704061"
+  },
+  "password_hash": null,
+  "owner": "sagar"
+}

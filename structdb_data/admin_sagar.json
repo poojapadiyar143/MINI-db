@@ -1,0 +1,89 @@
+{
+  "database": {
+    "name": "sagar",
+    "owner": "admin",
+    "tables": {
+      "student": {
+        "columns": [
+          "id"
+        ],
+        "column_definitions": [
+          {
+            "name": "id",
+            "definition": "int(10"
+          }
+        ],
+        "primary_key": "id",
+        "records": [],
+        "created_at": "2025-11-19T08:57:39.369413"
+      },
+      "employee": {
+        "columns": [
+          "id",
+          "name",
+          "course"
+        ],
+        "column_definitions": [
+          {
+            "name": "id",
+            "definition": "INT"
+          },
+          {
+            "name": "name",
+            "definition": "TEXT"
+          },
+          {
+            "name": "course",
+            "definition": "TEXT"
+          }
+        ],
+        "primary_key": "id",
+        "records": [
+          {
+            "id": 1,
+            "name": "John Doe",
+            "course": "BCA",
+            "_created_at": "2025-11-19T09:14:26.850038",
+            "_updated_at": "2025-11-19T09:14:26.850038"
+          }
+        ],
+        "created_at": "2025-11-19T09:14:14.031766"
+      },
+      "llb": {
+        "columns": [
+          "id",
+          "name",
+          "course"
+        ],
+        "column_definitions": [
+          {
+            "name": "id",
+            "definition": "int(10)"
+          },
+          {
+            "name": "name",
+            "definition": "char(20)"
+          },
+          {
+            "name": "course",
+            "definition": "char(6)"
+          }
+        ],
+        "primary_key": "id",
+        "records": [
+          {
+            "id": 1,
+            "name": "pooja",
+            "course": "bca",
+            "_created_at": "2025-11-19T09:20:50.510627",
+            "_updated_at": "2025-11-19T09:20:50.510627"
+          }
+        ],
+        "created_at": "2025-11-19T09:19:42.603140"
+      }
+    },
+    "created_at": "2025-11-19T08:55:17.418195"
+  },
+  "password_hash": null,
+  "owner": "admin"
+}

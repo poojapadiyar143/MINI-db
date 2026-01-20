@@ -1,0 +1,10 @@
+{
+  "database": {
+    "name": "SAGAR",
+    "owner": "sagar",
+    "tables": {},
+    "created_at": "2025-11-10T21:24:47.426483"
+  },
+  "password_hash": null,
+  "owner": "sagar"
+}

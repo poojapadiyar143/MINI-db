@@ -1,0 +1,78 @@
+{
+  "database": {
+    "name": "demo",
+    "owner": "admin1",
+    "tables": {
+      "student": {
+        "columns": [
+          "id"
+        ],
+        "column_definitions": [
+          {
+            "name": "id",
+            "definition": "int(10"
+          }
+        ],
+        "primary_key": "id",
+        "records": [],
+        "created_at": "2025-11-10T22:17:36.148318"
+      },
+      "employee": {
+        "columns": [
+          "id",
+          "name",
+          "course"
+        ],
+        "column_definitions": [
+          {
+            "name": "id",
+            "definition": "varchar(10)"
+          },
+          {
+            "name": "name",
+            "definition": "char(8)"
+          },
+          {
+            "name": "course",
+            "definition": "char(9)"
+          }
+        ],
+        "primary_key": "id",
+        "records": [
+          {
+            "id": "e001",
+            "name": "pooja",
+            "course": "bca",
+            "_created_at": "2025-11-19T11:58:34.081894",
+            "_updated_at": "2025-11-19T11:58:34.081894"
+          },
+          {
+            "id": "e002",
+            "name": "some_value",
+            "course": "bca",
+            "_created_at": "2025-11-19T11:59:04.840938",
+            "_updated_at": "2025-11-19T12:16:13.884245"
+          },
+          {
+            "id": "e003",
+            "name": "piyush",
+            "course": "bca",
+            "_created_at": "2025-11-19T11:59:42.946622",
+            "_updated_at": "2025-11-19T11:59:42.946622"
+          },
+          {
+            "id": "e004",
+            "name": "kavyanka",
+            "course": "bca",
+            "_created_at": "2025-11-19T12:00:03.180776",
+            "_updated_at": "2025-11-19T12:00:03.180776"
+          }
+        ],
+        "created_at": "2025-11-19T11:57:53.349213"
+      }
+    },
+    "created_at": "2025-11-10T22:16:15.715094"
+  },
+  "password_hash": null,
+  "owner": "admin1"
+}
